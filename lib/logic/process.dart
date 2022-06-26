@@ -196,7 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox.fromSize(size: const Size.square(8.0)),
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(10.0),
               child: Column(
                 children: [
                   Row(
@@ -209,7 +209,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "⌫",
                         sembolColor: 0xffABABAB,
@@ -217,7 +216,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "+/-",
                         sembolColor: 0xffABABAB,
@@ -225,7 +223,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "÷",
                         sembolColor: 0xffFFA500,
@@ -246,7 +243,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "8",
                         sembolColor: 0xff434343,
@@ -254,7 +250,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "9",
                         sembolColor: 0xff434343,
@@ -262,7 +257,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "×",
                         sembolColor: 0xffFFA500,
@@ -283,7 +277,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
+
                       ButtonCal(
                         sembol: "5",
                         sembolColor: 0xff434343,
@@ -291,7 +285,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "6",
                         sembolColor: 0xff434343,
@@ -299,7 +292,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "−",
                         sembolColor: 0xffFFA500,
@@ -320,7 +312,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "2",
                         sembolColor: 0xff434343,
@@ -328,7 +319,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "3",
                         sembolColor: 0xff434343,
@@ -336,7 +326,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "+",
                         sembolColor: 0xffFFA500,
@@ -357,7 +346,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "00",
                         sembolColor: 0xff434343,
@@ -365,7 +353,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         callBack: btnClick,
                         fixedSizeNum: 80,
                       ),
-                      SizedBox.fromSize(size: const Size.square(12.0)),
                       ButtonCal(
                         sembol: "=",
                         sembolColor: 0xffFFA500,
